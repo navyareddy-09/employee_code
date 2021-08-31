@@ -15,7 +15,7 @@ steps:
       echo Successfully...
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'C:\work\demo\demo\pom.xml'
     publishJUnitResults: true
     testResultsFiles: '*/surefire-reports/TEST-.xml'
     allowBrokenSymlinks: false
