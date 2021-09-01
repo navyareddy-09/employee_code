@@ -4,8 +4,7 @@
 
 trigger:
 - master
-pool:
-  Default
+pool: Azure Pipelines
 steps:
 - task: CmdLine@2
   name: "Pre_Command_Check"
